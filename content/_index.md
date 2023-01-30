@@ -1,5 +1,5 @@
 ---
-title: 🪴 Quartz 3.
+title: Tea Nursery's Vault.
 enableToc: false
 ---
 [[notes/Temperature]]
