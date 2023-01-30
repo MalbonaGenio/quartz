@@ -10,8 +10,12 @@
     <article>
       {{if .Title}}<h1>{{ .Title }}</h1>{{end}}
       <p class="meta">
-        {{ i18n "last_updated" }} {{ partial "date-fmt.html" .}} 
-          {{ partial "github.html" . }}
+        {{ i18n "date_created" }} {{ partial "date-fmt.html" .}}
+      </p>
+      <p class="meta">
+
+        {{ i18n "last_updated" }} {{ partial "update-fmt.html" .}} 
+          {{ partial "github.html" . }} 
       </p>
       <ul class="tags">
           {{ range (.GetTerms "tags") }}

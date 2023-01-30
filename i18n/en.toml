@@ -10,6 +10,9 @@ other = "All {{.Title}}"
 [last_updated]
 other = "Last updated"
 
+[date_created]
+other = "Date created"
+
 [notes_count]
 other = "notes with this tag"
 
